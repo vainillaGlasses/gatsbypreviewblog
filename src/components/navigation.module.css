@@ -1,12 +1,17 @@
 .navigation {
   display: flex;
-  justify-content: center;
   list-style: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
-  height: 20vh;
-  max-height: 100px;
+  height: 15vh;
+  max-height: 65px;
   font-size: 1.25em;
+}
+
+.navigationLogo {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 1em;
 }
 
 .navigationItem {
@@ -17,4 +22,5 @@
 
 .navigationItem a {
   color: currentColor;
+  text-decoration: none;
 }
